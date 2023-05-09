@@ -11,6 +11,13 @@
 		9ABE86992A0AB7C30069E661 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE86982A0AB7C30069E661 /* ContentView.swift */; };
 		9ABE869B2A0AB7C60069E661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABE869A2A0AB7C60069E661 /* Assets.xcassets */; };
 		9ABE869E2A0AB7C60069E661 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABE869D2A0AB7C60069E661 /* Preview Assets.xcassets */; };
+		9ABE86A62A0ACB220069E661 /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE86A52A0ACB220069E661 /* ChatRow.swift */; };
+		9ABE86A82A0ACB5D0069E661 /* Invitaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE86A72A0ACB5D0069E661 /* Invitaciones.swift */; };
+		9ABE86AA2A0ACB760069E661 /* SuperiorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE86A92A0ACB760069E661 /* SuperiorCard.swift */; };
+		9ABE86AD2A0AD03A0069E661 /* ChatTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE86AC2A0AD03A0069E661 /* ChatTab.swift */; };
+		9ABE86AF2A0AD1DA0069E661 /* TaskTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE86AE2A0AD1DA0069E661 /* TaskTab.swift */; };
+		9ABE86B32A0AD1FF0069E661 /* ExploreTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE86B22A0AD1FF0069E661 /* ExploreTab.swift */; };
+		9ABE86B52A0AD20A0069E661 /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE86B42A0AD20A0069E661 /* ProfileTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		9ABE86982A0AB7C30069E661 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9ABE869A2A0AB7C60069E661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ABE869D2A0AB7C60069E661 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9ABE86A52A0ACB220069E661 /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		9ABE86A72A0ACB5D0069E661 /* Invitaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invitaciones.swift; sourceTree = "<group>"; };
+		9ABE86A92A0ACB760069E661 /* SuperiorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperiorCard.swift; sourceTree = "<group>"; };
+		9ABE86AC2A0AD03A0069E661 /* ChatTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTab.swift; sourceTree = "<group>"; };
+		9ABE86AE2A0AD1DA0069E661 /* TaskTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTab.swift; sourceTree = "<group>"; };
+		9ABE86B22A0AD1FF0069E661 /* ExploreTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTab.swift; sourceTree = "<group>"; };
+		9ABE86B42A0AD20A0069E661 /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,8 @@
 		9ABE86952A0AB7C30069E661 /* design */ = {
 			isa = PBXGroup;
 			children = (
+				9ABE86AB2A0AD0270069E661 /* Tabs */,
+				9ABE86A42A0ACB040069E661 /* Widgets */,
 				9ABE86962A0AB7C30069E661 /* designApp.swift */,
 				9ABE86982A0AB7C30069E661 /* ContentView.swift */,
 				9ABE869A2A0AB7C60069E661 /* Assets.xcassets */,
@@ -65,6 +81,27 @@
 				9ABE869D2A0AB7C60069E661 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9ABE86A42A0ACB040069E661 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				9ABE86A52A0ACB220069E661 /* ChatRow.swift */,
+				9ABE86A72A0ACB5D0069E661 /* Invitaciones.swift */,
+				9ABE86A92A0ACB760069E661 /* SuperiorCard.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		9ABE86AB2A0AD0270069E661 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				9ABE86AC2A0AD03A0069E661 /* ChatTab.swift */,
+				9ABE86AE2A0AD1DA0069E661 /* TaskTab.swift */,
+				9ABE86B22A0AD1FF0069E661 /* ExploreTab.swift */,
+				9ABE86B42A0AD20A0069E661 /* ProfileTab.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ABE86992A0AB7C30069E661 /* ContentView.swift in Sources */,
+				9ABE86B32A0AD1FF0069E661 /* ExploreTab.swift in Sources */,
+				9ABE86AD2A0AD03A0069E661 /* ChatTab.swift in Sources */,
+				9ABE86A82A0ACB5D0069E661 /* Invitaciones.swift in Sources */,
+				9ABE86AA2A0ACB760069E661 /* SuperiorCard.swift in Sources */,
+				9ABE86A62A0ACB220069E661 /* ChatRow.swift in Sources */,
+				9ABE86B52A0AD20A0069E661 /* ProfileTab.swift in Sources */,
+				9ABE86AF2A0AD1DA0069E661 /* TaskTab.swift in Sources */,
 				9ABE86972A0AB7C30069E661 /* designApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
